@@ -1,0 +1,14 @@
+interface:
+  display_name: Audit cybersécurité web
+  short_description: Audit OWASP, preuves et corrections priorisées
+  default_prompt: Utilise $audit-cybersecurite-web pour auditer la sécurité de ce
+    site et produire un plan de correction priorisé.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
